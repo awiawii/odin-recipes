@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: Besley, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.header {
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    padding: 16px;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer {
+    padding: 16px;
+    background: #eee;
+    color: darkmagenta;
+    text-align: center;
+}
+
+.hh {
+    color: rgb(233, 51, 236);
+}
+
+#Home {
+    font-size: 20px;
+}
+
+.recipe {
+    padding: 20px;
+}
